@@ -18,7 +18,7 @@ id bigint not null,
 portada varchar(50),
 contratapa varchar(50)
 )
--- CLAVE DE LA RELACIÓN UNO A UNO: PK Y FK --
+-- CLAVE DE LA RELACIÃ“N UNO A UNO: PK Y FK --
 alter table portadas
 add constraint PK_portada primary key (id)
 alter table portadas
